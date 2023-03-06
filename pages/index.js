@@ -77,9 +77,9 @@ const Home = () => {
             ))}
           </div>
           <Link href="/buy-coffee">
-            <a>
+            {/* <a> */}
               <button className="button-primary">Buy Coffee</button>
-            </a>
+            {/* </a> */}
           </Link>
         </section>
       </main>

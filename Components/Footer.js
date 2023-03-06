@@ -11,36 +11,42 @@ export const Footer = () => {
   return (
     <footer className={styles.container}>
       <Link href="/">
-        <a>
+        {/* <a> */}
           <GiCoffeePot className={styles.logo} size={32} />
-        </a>
+        {/* </a> */}
       </Link>
       <div className={styles.links_container}>
         <Link href="/">
-          <a>HOME</a>
+          {/* <a> */}
+            HOME
+          {/* </a> */}
         </Link>
         <Link href="/about">
-          <a>ABOUT US</a>
+          {/* <a> */}
+            ABOUT US
+          {/* </a> */}
         </Link>
         <Link href="/buy-coffee">
-          <a> Buy Coffee</a>
+          {/* <a> */}
+            Buy Coffee
+            {/* </a> */}
         </Link>
       </div>
       <div className={styles.social_container}>
         <Link href="/">
-          <a>
+          {/* <a> */}
             <RiFacebookCircleLine size={32} className={styles.social_link} />
-          </a>
+          {/* </a> */}
         </Link>
         <Link href="/">
-          <a>
+          {/* <a> */}
             <RiInstagramLine size={32} className={styles.social_link} />
-          </a>
+          {/* </a> */}
         </Link>
         <Link href="/">
-          <a>
+          {/* <a> */}
             <RiTwitterLine size={32} className={styles.social_link} />
-          </a>
+          {/* </a> */}
         </Link>
       </div>
     </footer>

@@ -10,20 +10,26 @@ export const Navbar = () => {
   return (
     <header className={styles.container}>
       <Link href="/">
-        <a>
+        {/* <a> */}
           <GiCoffeePot size={44} />
-        </a>
+        {/* </a> */}
       </Link>
 
       <div className={styles.link_container}>
         <Link href="/">
-          <a>Home</a>
+          {/* <a> */}
+            Home
+            {/* </a> */}
         </Link>
         <Link href="/about">
-          <a> About us</a>
+          {/* <a>  */}
+            About us
+            {/* </a> */}
         </Link>
         <Link href="/buy-coffee">
-          <a> Buy Coffee</a>
+          {/* <a>  */}
+            Buy Coffee
+            {/* </a> */}
         </Link>
       </div>
 
@@ -44,32 +50,38 @@ export const Navbar = () => {
         style={hamburgerClicked ? { display: "block" } : { display: "none" }}
       >
         <div className={styles.menu_links_container}>
-          <Link href="/">
-            <a
+          <Link href="/"  onClick={() => {
+                setHamburgerClicked(!hamburgerClicked);
+              }} >
+            {/* <a
               onClick={() => {
                 setHamburgerClicked(!hamburgerClicked);
               }}
-            >
+            > */}
               Home
-            </a>
+            {/* </a> */}
           </Link>
-          <Link href="/about">
-            <a
+          <Link href="/about" onClick={() => {
+                setHamburgerClicked(!hamburgerClicked);
+              }} >
+            {/* <a
               onClick={() => {
                 setHamburgerClicked(!hamburgerClicked);
               }}
-            >
+            > */}
               About us
-            </a>
+            {/* </a> */}
           </Link>
-          <Link href="/buy-coffee">
-            <a
+          <Link href="/buy-coffee" onClick={() => {
+                setHamburgerClicked(!hamburgerClicked);
+              }} >
+            {/* <a
               onClick={() => {
                 setHamburgerClicked(!hamburgerClicked);
               }}
-            >
+            > */}
               Buy Coffee
-            </a>
+            {/* </a> */}
           </Link>
         </div>
       </div>
