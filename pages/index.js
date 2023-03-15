@@ -27,10 +27,9 @@ const Home = () => {
       <main>
         <section className={styles.hero_container}>
           <div className={styles.hero_content}>
-            <h1>Great simple coffee.</h1>
+            <h1>WISEMEN COFFEE COMPANY</h1>
             <p>
-              Good communication is just as stimulating as black coffee, and
-              just as hard to sleep after.
+            Growing the Lord’s Kingdom by supporting local churches and missionaries.
             </p>
             <Link href="/about">
               <button className="button-primary">Find Out More</button>
@@ -57,8 +56,8 @@ const Home = () => {
             </p>
           </div>
           <div className={styles.why_card_container}>
-            {WhyData.data.map((data, key) => (
-              <Why key={key} {...data} />
+            {WhyData.data.map((data, index) => (
+              <Why index={index} {...data} />
             ))}
           </div>
         </section>

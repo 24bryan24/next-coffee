@@ -12,7 +12,8 @@ export const Footer = () => {
     <footer className={styles.container}>
       <Link href="/">
         {/* <a> */}
-          <GiCoffeePot className={styles.logo} size={32} />
+          {/* <GiCoffeePot className={styles.logo} size={32} /> */}
+        <img style={{backgroundColor: 'white', width: '75px', height: '75px'}} src='../assets/home/wisemencc.png' />
         {/* </a> */}
       </Link>
       <div className={styles.links_container}>

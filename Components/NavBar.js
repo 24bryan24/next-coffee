@@ -11,8 +11,9 @@ export const Navbar = () => {
     <header className={styles.container}>
       <Link href="/">
         {/* <a> */}
-          <GiCoffeePot size={44} />
+          {/* <GiCoffeePot size={44} /> */}
         {/* </a> */}
+        <img style={{width: '75px', height: '75px'}} src='../assets/home/wisemencc.png' />
       </Link>
 
       <div className={styles.link_container}>

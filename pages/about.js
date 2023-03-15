@@ -9,40 +9,35 @@ const About = () => {
       <Meta />
       <main className="page-container">
         <Hero
-          description="The original domesticated coffee plant is said to have been from Harar, and the native population is thought to be derived from Ethiopia with distinct nearby populations in Sudan and Kenya. Coffee was primarily consumed in the Islamic world where it originated and was directly related to religious practices."
-          title="About us"
+          description="As a Christian owned company, a portion of our revenue will be partnered with the following ministries/organizations (Mt; 19: 21; Mt 28:19,20) to further God’s Kingdom.
+          
+          With each purchase  you will be joining with us to make this happen (Pr 22:9).  To see  the work of these ministries, scroll below."
+          title="OUR PARTNERSHIPS"
           imageClassName="white-image"
         />
 
         <section className={styles.promise_container}>
           <div className={styles.promise_image_box}>
             <Image
-              src="/assets/about/promise.jpg"
+              src="/assets/about/asifiwe1.webp"
               alt="Our Promise"
               height="650"
+              width="500"
+            />
+            <Image
+              src="/assets/about/asifiwe2.webp"
+              alt="Quality Work"
+              height="500"
               width="500"
             />
           </div>
 
           <div className={styles.promise_text_content}>
-            <h2>Our Promise</h2>
+            <h2>ASIFIWE Childcare Ministries - Uganda</h2>
             <p>
-              Coffee is a plant (Coffea) and the name of the drink that is made
-              from this plant. The coffee plant is a bush or tree that can grow
-              up to ten meters (about 32 feet) high, but is usually cut shorter.
-              Coffee plants originally grew in Africa, and now also grow in
-              South America, Central America and Southeast Asia. They are an
-              important crop for the economies of many countries.To make a drink
-              from coffee beans, the beans must first be specially prepared by
-              drying the beans and then roasting. The beans are dried a short
-              time after they are picked. This preserves them and makes them
-              ready to be packed or roasted. Before the beans are made into a
-              drink, they must be roasted or ground (crushed into tiny pieces in
-              a coffee mill). When the ground coffee is placed into boiling
-              water, the flavour and dark brown colour of the beans goes into
-              the water. Making coffee is called brewing coffee. There are
-              several different ways that coffee can be brewed.
-              <br />- Wikipedia
+            Asifiwe is a Christian child care ministry that exists to care for Africa’s orphaned, abandoned and most vulnerable children, young men and women. They desire to bring them out of poverty and hopelessness into the dignified life that is a result of the transforming work of the love of Jesus Christ. 
+
+At Asifiwe, they believe that every child needs to belong to a family where they are loved and cared for on a personal basis. They do this by placing a child into a small family of eight children with a loving mother who cares for them like her own children. Every child receives home care, medical care, education, emotional support and spiritual discipleship. 
             </p>
           </div>
         </section>
