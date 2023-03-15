@@ -32,23 +32,23 @@ const BuyOptionsData = {
       data: [
         {
           id: "Q2",
-          value: "Robusta",
+          value: "Ethiopian",
           description:
-            "The coffee caniphora species is also particularly tolerant of its environment.",
+            "Ethiopian coffee is also particularly tolerant of its environment.",
           price: 2.03,
         },
         {
           id: "Q2",
-          value: "Liberica",
+          value: "Guatemalan",
           description:
-            "Liberica coffee beans are a rare treat. They’re grown in very specific climates.",
+            "Guatemalan coffee beans are a rare treat. They’re grown in very specific climates.",
           price: 2.47,
         },
         {
           id: "Q2",
-          value: "Excelsa",
+          value: "Sumatran",
           description:
-            "Excelsa is technically a member of the Liberica family, but its species is actually incredibly distinct.",
+            "Sumatran coffee is technically a member of the Liberica family, but its species is incredibly distinct.",
           price: 3.57,
         },
       ],
@@ -60,21 +60,21 @@ const BuyOptionsData = {
       data: [
         {
           id: "Q3",
-          value: "1000g",
+          value: "1 bag",
           description:
             "Perfect for the solo drinker. Yields about 48 delicious cups.",
           weight: 1,
         },
         {
           id: "Q3",
-          value: "2000g",
+          value: "2 bags",
           description:
             "Perfect option for a couple. Yields about 100 delectable cups.",
           weight: 2,
         },
         {
           id: "Q3",
-          value: "2500g",
+          value: "3 bags",
           description:
             "Perfect for offices and events. Yields about 200 delightful cups.",
           weight: 2.5,
@@ -84,7 +84,7 @@ const BuyOptionsData = {
 
     {
       option: "Grind Options",
-      question: "How you want us to grind them ?",
+      question: "How do you want us to prepare them ?",
       type: "grind",
       data: [
         {
