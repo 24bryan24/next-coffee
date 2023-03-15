@@ -31,7 +31,7 @@ const Home = () => {
             <p>
             Growing the Lord’s Kingdom by supporting local churches and missionaries.
             </p>
-            <Link href="/about">
+            <Link href="/about" passHref>
               <button className="button-primary">Find Out More</button>
             </Link>
           </div>
@@ -56,8 +56,8 @@ const Home = () => {
             </p>
           </div>
           <div className={styles.why_card_container}>
-            {WhyData.data.map((data, index) => (
-              <Why index={index} {...data} />
+            {WhyData.data.map((data, key) => (
+              <Why key={key} {...data} />
             ))}
           </div>
         </section>
@@ -75,7 +75,7 @@ const Home = () => {
               <How key={key} {...data} />
             ))}
           </div>
-          <Link href="/buy-coffee">
+          <Link href="/buy-coffee" passHref>
             {/* <a> */}
               <button className="button-primary">Buy Coffee</button>
             {/* </a> */}

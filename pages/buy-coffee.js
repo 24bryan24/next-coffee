@@ -82,7 +82,7 @@ export default function Buy_coffee() {
         ).toFixed(2)
       );
     }
-  }, [coffee, canBuy]);
+  }, [coffee, canBuy, checkOutAmount]);
 
   return (
     <>
