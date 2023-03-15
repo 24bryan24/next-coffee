@@ -138,7 +138,7 @@ const CheckoutForm = ({ onClick, amount }) => {
           <p className={styles.modal_plan}>
             Thanks for buying from
             <br />
-            <span> Next Coffee Shop </span>.
+            <span> Wisemen Coffee Co. </span>.
             <br />
             <br />
             No money was charged, but we generated a Payment Method : <br />
